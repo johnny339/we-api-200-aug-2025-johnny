@@ -1,0 +1,25 @@
+@Software.Api_HostAddress = http://localhost:1337
+
+POST http://localhost:1337/vendors 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImpvZUBjb21wYW55LmNvbSIsInN1YiI6ImpvZUBjb21wYW55LmNvbSIsImp0aSI6IjY3NDFhNmNkIiwicm9sZSI6WyJTb2Z0d2FyZUNlbnRlciIsIk1hbmFnZXIiXSwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDoxMzM3IiwibmJmIjoxNzU1MTgwNDA2LCJleHAiOjE3NjMxMjkyMDYsImlhdCI6MTc1NTE4MDQwOCwiaXNzIjoiZG90bmV0LXVzZXItand0cyJ9.jX-bLcdbOoaSO8pLQ4_Rn2AF7T4eIUjJOGMyfimHyB4
+Content-Type: application/json
+
+{
+  "name": "",
+  "url": "",
+  "contact": {
+    "name": "Satya"
+   
+  }
+}
+
+
+### 
+
+GET http://localhost:1337/vendors/ef74c8e4-bird-snot-4786-b6d5-ab4fddc7be74
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImpvZUBjb21wYW55LmNvbSIsInN1YiI6ImpvZUBjb21wYW55LmNvbSIsImp0aSI6IjY3NDFhNmNkIiwicm9sZSI6WyJTb2Z0d2FyZUNlbnRlciIsIk1hbmFnZXIiXSwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDoxMzM3IiwibmJmIjoxNzU1MTgwNDA2LCJleHAiOjE3NjMxMjkyMDYsImlhdCI6MTc1NTE4MDQwOCwiaXNzIjoiZG90bmV0LXVzZXItand0cyJ9.jX-bLcdbOoaSO8pLQ4_Rn2AF7T4eIUjJOGMyfimHyB4
+
+### 
+GET http://localhost:1337/vendors 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImpvZUBjb21wYW55LmNvbSIsInN1YiI6ImpvZUBjb21wYW55LmNvbSIsImp0aSI6IjY3NDFhNmNkIiwicm9sZSI6WyJTb2Z0d2FyZUNlbnRlciIsIk1hbmFnZXIiXSwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDoxMzM3IiwibmJmIjoxNzU1MTgwNDA2LCJleHAiOjE3NjMxMjkyMDYsImlhdCI6MTc1NTE4MDQwOCwiaXNzIjoiZG90bmV0LXVzZXItand0cyJ9.jX-bLcdbOoaSO8pLQ4_Rn2AF7T4eIUjJOGMyfimHyB4
+
