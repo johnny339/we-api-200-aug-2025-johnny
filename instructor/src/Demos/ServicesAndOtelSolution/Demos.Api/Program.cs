@@ -19,7 +19,8 @@ var builder = WebApplication.CreateBuilder(args);
 //var config = builder.Configuration.GetSection(ClassDataServiceOptions.OptionsName);
 var classOptions = new ClassDataServiceOptions();
 builder.Configuration.GetSection(ClassDataServiceOptions.OptionsName).Bind(classOptions);
-//builder.Services.AddSingleton(classOptions); 
+// You can also do this so it can "watch" your configuraton. - Be careful with this.
+builder.Services.AddSingleton<ClassDataServiceOptions>(classOptions); 
 
 builder.Services.AddScoped<ClassDataService>();
 
