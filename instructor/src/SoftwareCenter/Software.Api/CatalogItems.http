@@ -1,0 +1,15 @@
+
+
+POST http://localhost:1337/vendors/ef74c8e4-2415-4786-b6d5-ab4fddc7be74/catalog-items
+Content-Type: application/json
+
+{
+    "name": "VSCode",
+    "Description": "Editor",
+    "version": "1.301.1"
+}
+
+
+### 
+
+GET http://localhost:1337/catalog-items

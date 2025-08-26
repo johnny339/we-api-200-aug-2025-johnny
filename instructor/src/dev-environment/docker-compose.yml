@@ -1,0 +1,21 @@
+services:
+
+  db:
+    image: postgres:17.5-bullseye
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: password
+      POSTGRES_USER: user
+      POSTGRES_DB: postgres
+    ports:
+      - 5432:5432
+    volumes:
+      - db_data:/var/lib/postgresql/data
+      - ./db/:/docker-entrypoint-initdb.d/
+  aspire-dashboard:
+    image: mcr.microsoft.com/dotnet/aspire-dashboard:latest
+    ports:
+      - 18888:18888
+      - 4317:18889
+volumes:
+  db_data:
