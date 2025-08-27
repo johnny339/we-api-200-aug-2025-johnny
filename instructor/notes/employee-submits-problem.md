@@ -25,7 +25,7 @@ Content-Type: application/json
   "contactPreference": 0,
   "contactMechanisms": {
     "Phone": "555-1212",
-    "Email": "bob@company.com"
+    "Email": "jeff@company.com"
   }
 }
 
